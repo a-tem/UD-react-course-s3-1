@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommentDetail = (props) => {
   return (
-    <div className="flex flex-row w-1/3 mb-4">
+    <div className="flex flex-row">
       <div className="mr-2 w-48">
         <img className="rounded" alt="avatar" src={props.image} />
       </div>
